@@ -83,7 +83,7 @@ function App() {
         <button onClick={() => {
           setMsg(<>
             <Icon icon="mdi:close" color="blue" width="24px" height="24px" />
-            不正解. 1KA は32進数にした数値です.
+            不正解. 1KA は36進数にした数値です.
           </>);
         }}>
           エ. 1KA
@@ -111,7 +111,7 @@ function App() {
       </>}
 
       <div className="footer">
-        Copyright © 2026 <a href="https://github.com/kmmz532">@kmmz532</a> CC0 - No Rights Reserved
+        Copyright © 2026 <a href="https://github.com/kmmz532">@kmmz532</a>
       </div>
     </>
   )
